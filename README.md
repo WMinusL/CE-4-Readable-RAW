@@ -1,6 +1,6 @@
 ## CE-4-Readable-RAW 
 代码思路来源https://github.com/siyu6974/ChangE_4_data_playground  （同时有较为完整的原始数据下载链接，现在官网上缺失了后四个月的数据） 
-需要的库：pypng,numpy,pds4-tools  
+需要的库：pypng,glob,numpy,pds4-tools  
 此代码读取pds文件  
 处理未Debayer的数据，如PCAM，请使用pds2png16L.py   
 处理Debayer后的数据，如TCAM，请使用pds2png16RGB.py  
